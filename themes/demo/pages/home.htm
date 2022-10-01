@@ -1,0 +1,81 @@
+title = "Home page"
+url = "/"
+layout = "mylayout"
+is_hidden = 0
+
+[builderList]
+modelClass = "Oyj\Supervisor\Models\Supervisor"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "supervisor_name"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+==
+<div class="jumbotron">
+    <div class="container">
+        <h1>Welcome, user</h1>
+        <p>This is the proposed homepage</p>
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="page-header">
+        <h2>Proposed homepage for each role</h2>
+    </div>
+    
+    <h3>Student (without supervisor)</h3>
+    <p class="lead">
+        If user role is student, and does not have supervisor, display supervisor list (using partials)
+    </p>{% component 'builderList' %}
+    <p>
+        >>>>>>Supervisor List<<<<<<< <br>
+        1. Specialization <br>
+        2. Current Student / Quota <br>
+        3. Remarks <br>
+        4. Contact <br>
+        5. Button to submit resume and apply <br>
+    </p>
+
+    <!-- Layouts -->
+    <h3>Student (with supervisor)</h3>
+    <p class="lead">
+        If user role is student, and currently having supervisor, display task completion bar and tasks to be completed
+    </p>
+    <p>
+        >>>>>Tasks to be completed<<<<< <br>
+        1. Task (with link to view details) (highlight if new, <small>if possible to be done</small>) <br>
+        2. Due date <br>
+        3. Status  <br>
+    </p>
+    <hr />
+
+    <!-- Pages -->
+    <h3>Supervisor</h3>
+    <p class="lead">
+        If (quota is not full), {display requests from student}, otherwise, {display "full quota"}, after that, display then the subordinate student list
+    </p>
+    <p>
+        >>>>>Pending Requests<<<<< <br>
+        1. Student name (link to profile) <br>
+        2. Resume (link to file) <br>
+        3. Hours left to accept (48 hours default) OR Due date to accept <br>
+        4. Button to accept <br>
+    </p>
+
+    <hr />
+
+    <!-- Partials -->
+    <h3>Coordinator</h3>
+    <p class="lead">
+        Display student and supervisor list
+    </p>
+    <p>
+        Student list partials component
+        Supervisor list partials component
+    </p>
+    <hr />
+
+</div>

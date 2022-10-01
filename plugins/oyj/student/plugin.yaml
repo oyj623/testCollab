@@ -1,0 +1,11 @@
+plugin:
+    name: 'oyj.student::lang.plugin.name'
+    description: 'oyj.student::lang.plugin.description'
+    author: oyj
+    icon: oc-icon-male
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Student
+        url: oyj/student/student
+        icon: icon-male

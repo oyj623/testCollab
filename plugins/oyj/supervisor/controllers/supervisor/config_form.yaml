@@ -1,0 +1,10 @@
+name: Supervisor
+form: $/oyj/supervisor/models/supervisor/fields.yaml
+modelClass: Oyj\Supervisor\Models\Supervisor
+defaultRedirect: oyj/supervisor/supervisor
+create:
+    redirect: 'oyj/supervisor/supervisor/update/:id'
+    redirectClose: oyj/supervisor/supervisor
+update:
+    redirect: oyj/supervisor/supervisor
+    redirectClose: oyj/supervisor/supervisor

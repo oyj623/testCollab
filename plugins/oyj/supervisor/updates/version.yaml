@@ -1,0 +1,5 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table oyj_supervisor_'
+    - builder_table_create_oyj_supervisor_.php

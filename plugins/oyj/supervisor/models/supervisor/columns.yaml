@@ -1,0 +1,18 @@
+columns:
+    id:
+        label: ID
+        type: number
+        searchable: true
+        sortable: true
+    supervisor_name:
+        label: Name
+        type: text
+        searchable: true
+    supervisor_id:
+        label: 'Supervisor ID'
+        type: text
+        searchable: true
+        sortable: true
+    supervisor_office:
+        label: Office
+        type: text

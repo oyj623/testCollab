@@ -1,0 +1,11 @@
+fields:
+    student_name:
+        label: Name
+        span: left
+        type: text
+        commentAbove: 'student''s name'
+    student_id:
+        label: ID
+        span: right
+        type: text
+        commentAbove: 'student id'

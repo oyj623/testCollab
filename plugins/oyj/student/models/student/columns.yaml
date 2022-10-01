@@ -1,0 +1,17 @@
+columns:
+    id:
+        label: ID
+        type: number
+        searchable: true
+        sortable: true
+    student_name:
+        label: Name
+        type: text
+        searchable: true
+    student_id:
+        label: 'Student ID'
+        type: text
+        searchable: true
+    student_intake:
+        label: Intake
+        type: text

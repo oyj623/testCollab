@@ -1,0 +1,16 @@
+fields:
+    supervisor_name:
+        label: Name
+        span: left
+        type: text
+        commentAbove: 'Supervisor''s full name'
+    supervisor_id:
+        label: ID
+        span: left
+        type: text
+        commentAbove: 'Supervisor ID'
+    supervisor_office:
+        label: Office
+        span: left
+        type: text
+        commentAbove: 'Supervisor''s office room number'

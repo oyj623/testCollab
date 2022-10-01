@@ -1,0 +1,11 @@
+plugin:
+    name: 'oyj.supervisor::lang.plugin.name'
+    description: 'oyj.supervisor::lang.plugin.description'
+    author: oyj
+    icon: oc-icon-female
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Supervisor
+        url: oyj/supervisor/supervisor
+        icon: icon-female

@@ -1,0 +1,4 @@
+title: Student
+modelClass: Oyj\Student\Models\Student
+toolbar:
+    buttons: reorder_toolbar

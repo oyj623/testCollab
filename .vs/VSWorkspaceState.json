@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\plugins",
+    "\\plugins\\oyj",
+    "\\plugins\\oyj\\student",
+    "\\plugins\\oyj\\student\\models",
+    "\\plugins\\oyj\\supervisor",
+    "\\plugins\\oyj\\supervisor\\models"
+  ],
+  "SelectedNode": "\\plugins\\oyj\\student\\models\\Student.php",
+  "PreviewInSolutionExplorer": false
+}

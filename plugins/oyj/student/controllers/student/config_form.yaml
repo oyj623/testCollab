@@ -1,0 +1,10 @@
+name: Student
+form: $/oyj/student/models/student/fields.yaml
+modelClass: Oyj\Student\Models\Student
+defaultRedirect: oyj/student/student
+create:
+    redirect: 'oyj/student/student/update/:id'
+    redirectClose: oyj/student/student
+update:
+    redirect: oyj/student/student
+    redirectClose: oyj/student/student

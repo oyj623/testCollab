@@ -1,0 +1,4 @@
+title: Supervisor
+modelClass: Oyj\Supervisor\Models\Supervisor
+toolbar:
+    buttons: reorder_toolbar
