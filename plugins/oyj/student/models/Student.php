@@ -14,7 +14,7 @@ class Student extends Model
      * Remove this line if timestamps are defined in the database table.
      */
     public $timestamps = false;
-
+    // NO garlic
 
     /**
      * @var string The database table used by the model.
